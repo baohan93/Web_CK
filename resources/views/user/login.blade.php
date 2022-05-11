@@ -90,10 +90,13 @@
                             <label>Password <span class="text-danger">*</span></label>
                             <input class="form-control" type="password" name="password" />
                         </div>
+                        
                         <div class="text-center pt-1 mb-5 pb-1">
                                 <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" style="border-color: #0d6e8500">Login</button>
                                 <a class="btn btn-danger btn-block fa-lg gradient-custom-2 mb-3" style="border-color: #0d6e8500" href="{{ route('home') }}">Back</a>
+                                <!-- <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" style="border-color: #0d6e8500" href="{{url('password')}}">Change Password</button> -->
                         </div>
+                        
                         </form>
 
                     </div>
